@@ -1,0 +1,45 @@
+{
+  "name": "react-hooks-show-more-text",
+  "version": "1.0.4",
+  "description": "Handle showing more text / less text with react hooks",
+  "main": "build/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pankod/react-hooks-show-more-text.git"
+  },
+  "keywords": [
+    "react",
+    "react-hooks",
+    "show",
+    "more",
+    "show",
+    "less"
+  ],
+  "author": "pankod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pankod/react-hooks-show-more-text/issues"
+  },
+  "homepage": "https://github.com/pankod/react-hooks-show-more-text#readme",
+  "dependencies": {
+    "react": "^16.7.0-alpha.0",
+    "webpack": "^4.28.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "webpack-cli": "^3.2.1"
+  }
+}
